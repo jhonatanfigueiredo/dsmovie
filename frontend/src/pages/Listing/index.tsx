@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import MovieCard from "../../components/MovieCard";
 import Pagination from "../../components/Pagination";
 import { MoviePage } from "../../types/movie";
-import { api } from "../../util/request";
+import { api } from "../../utils/request";
 
 function Listing() {
 
